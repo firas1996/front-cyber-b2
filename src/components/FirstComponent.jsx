@@ -1,5 +1,7 @@
-const FirstComponent = ({ theName, x }) => {
-  //   const { theName } = props;
+const FirstComponent = ({ theName, x, getData }) => {
+  // const {theName} = props
+  let abc = 123;
+  getData(abc);
   return (
     <div>
       <h1>
